@@ -27,7 +27,7 @@ Un cliente se conecta al servidor de la cámara, la página comienza a transmiti
 ### Installation
 ---
 > Como primer paso debemos clonar el repositorio: 
-` git clone "Besto_Camera/scr.git"` 
+` git clone "https://github.com/jusebamo1/Besto-camera-in-the-uorl.git"` 
 #### Test Camera
 - ` cd camara-ros/ python app.py` 
 Alli se ejecutara un codigo que genera un link  (http//:localip:5000) y podras ver en tiempo real lo que toma la camara del telefono.
