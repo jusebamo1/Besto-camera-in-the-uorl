@@ -10,7 +10,7 @@ Un servidor de cámara web rápido con sensor habilitado para websocket que se p
 
 ## Cómo funciona
 --------------------------------
-Simplemente, cuando un cliente se conecta al servidor de la cámara, la página comienza a transmitir imagenes cada segundo. Cuando el servidor de archivo recibe el evento websocket, extrae la imagen del servidor de la cámara y archiva la imagen para su posterior procesamiento durante un período de tiempo.
+Un cliente se conecta al servidor de la cámara, la página comienza a transmitir imagenes cada segundo. Cuando el servidor de archivo recibe el evento websocket, extrae la imagen del servidor de la cámara y archiva la imagen para su posterior procesamiento durante un período de tiempo.
 
 
 # Example 
