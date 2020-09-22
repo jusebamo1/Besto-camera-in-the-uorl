@@ -34,7 +34,7 @@ Alli se ejecutara un codigo que genera un link  (http//:localip:5000) y podras v
 ##### Running Web page
 
 - ` cd ros_flask/python index.py` 
-Aqui ya se genera la pagina capaz de obtener los datos de los sensores tales com:
+Aqui ya se genera la pagina capaz de obtener los datos de los sensores tales como:
 > illuminance,
 > imu,
 > camera.
