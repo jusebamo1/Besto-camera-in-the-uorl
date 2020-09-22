@@ -30,15 +30,15 @@ https://drive.google.com/file/d/1pImyNdYkW90UULKF-Dla7w2UJo43IUVZ/view?usp=shari
 ### Installation
 ---
 > Como primer paso debemos clonar el repositorio: 
-` git clone blablbabla` 
+` git clone "blablbabla"` 
 #### Test Camera
 - ` cd camara-ros/ python app.py` 
 Alli se ejecutara un codigo que genera un link  (http//:localip:5000) y podras ver en tiempo real lo que toma la camara del telefono.
 
-##### Running Web page
+
+#### Running Web page
 - ` cd ros_flask/python index.py` 
 Aqui ya se genera la pagina capaz de obtener los datos de :
 > illuminance
 > imu
 > magnetic_field
-
