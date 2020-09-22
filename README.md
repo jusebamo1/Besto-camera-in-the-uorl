@@ -16,15 +16,8 @@ Un servidor de cámara web rápido con sensor habilitado para websocket que se p
 Un cliente se conecta al servidor de la cámara, la página comienza a transmitir imagenes cada segundo. Cuando el servidor de archivo recibe el evento websocket, extrae la imagen del servidor de la cámara y archiva la imagen para su posterior procesamiento durante un período de tiempo.
 
 
-# Visualizacion de la pagina:
-- https://drive.google.com/file/d/1pImyNdYkW90UULKF-Dla7w2UJo43IUVZ/view?usp=sharing
-- https://drive.google.com/file/d/1blhYk78O0K4xGQWMXgcTu4aJqO-YpaFZ/view?usp=sharing
-- https://drive.google.com/file/d/1gA_vK-ROsEfnq6nDhwLQz6UqNoIkV4UM/view?usp=sharing
-- https://drive.google.com/file/d/1I-zmsiefdOYS52tL2yW5O0hPvHMSZNqi/view?usp=sharing
-
-
-
 #### Requirements
+----
 - Para llevar a cabo este proyecto debes tener preinstalado:
   - ROS Melodic
   - Python 2.7
