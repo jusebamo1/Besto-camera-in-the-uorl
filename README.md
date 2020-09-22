@@ -5,21 +5,21 @@
 
 # Besto-camera-in-the-uorld
 --------------------------
-Un servidor de cámara web rápido con sensor habilitado para websocket que se puede usar para crear timelapses. El proyecto contiene un servidor express que se ejecuta en una PC para capturar imágenes de la cámara del teléfono, además de los datos tomados por los sensores del teléfono.
+Un servidor de cámara web rápido con sensor habilitado para websocket que se puede usar para crear timelapses. El proyecto contiene un servidor express que se ejecuta en una PC para capturar imágenes de la cámara del teléfono, además de los datos tomados por los sensores del mismo.
 - *Para llevar a cabo este proyecto debes tener preinstalado:*
-  - Tener instalado una versión de ROS
-  - Contar con una versión de Python 2.7 o superior
+  - Una versión de ROS
+  - Una versión de Python 2.7 o superior
   - Android app: ROS All Sensors Driver v0.2.8
 
-## How it works
+## Cómo funciona
 --------------------------------
-Simply, when a client connects to the camera's server, the page starts taking a picture every 5 seconds. When the archive server receives the websocket event, it pulls the image from the camera server and archives the image for further processing over a period of time.
+Simplemente, cuando un cliente se conecta al servidor de la cámara, la página comienza a tomar una foto cada 5 segundos. Cuando el servidor de archivo recibe el evento websocket, extrae la imagen del servidor de la cámara y archiva la imagen para su posterior procesamiento durante un período de tiempo.
 
   - Import a HTML file and watch it magically convert to Markdown
   - Drag and drop images (requires your Dropbox account be linked)
 
 # Example 
-This is an example of what the page looks like:
+Este es un ejemplo de cómo se ve la página:
 https://drive.google.com/file/d/1pImyNdYkW90UULKF-Dla7w2UJo43IUVZ/view
 
 ### Installation
