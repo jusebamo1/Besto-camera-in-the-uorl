@@ -6,7 +6,7 @@
 --------------------------
 
 
-# Besto-camera-in-the-uorld
+# Besto-Sensor-in-the-uorld
 --------------------------
 Un servidor de cámara web rápido con sensor habilitado para websocket que se puede usar para crear timelapses. El proyecto contiene un servidor express que se ejecuta en una PC para transmitir imágenes de la cámara del teléfono,además de los datos tomados por los sensores del mismo.
 
