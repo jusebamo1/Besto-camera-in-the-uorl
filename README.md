@@ -5,7 +5,7 @@
 
 # Besto-camera-in-the-uorld
 --------------------------
-Un servidor de cámara web rápido con sensor habilitado para websocket que se puede usar para crear timelapses. El proyecto contiene un servidor express que se ejecuta en una PC para capturar imágenes de la cámara del teléfono, además de los datos tomados por los sensores del mismo.
+Un servidor de cámara web rápido con sensor habilitado para websocket que se puede usar para crear timelapses. El proyecto contiene un servidor express que se ejecuta en una PC para transmitir imágenes de la cámara del teléfono,además de los datos tomados por los sensores del mismo.
 - *Para llevar a cabo este proyecto debes tener preinstalado:*
   - Una versión de ROS
   - Una versión de Python 2.7 o superior
@@ -13,22 +13,28 @@ Un servidor de cámara web rápido con sensor habilitado para websocket que se p
 
 ## Cómo funciona
 --------------------------------
-Simplemente, cuando un cliente se conecta al servidor de la cámara, la página comienza a tomar una foto cada 5 segundos. Cuando el servidor de archivo recibe el evento websocket, extrae la imagen del servidor de la cámara y archiva la imagen para su posterior procesamiento durante un período de tiempo.
+Simplemente, cuando un cliente se conecta al servidor de la cámara, la página comienza a transmitir imagenes cada segundo. Cuando el servidor de archivo recibe el evento websocket, extrae la imagen del servidor de la cámara y archiva la imagen para su posterior procesamiento durante un período de tiempo.
 
   - Import a HTML file and watch it magically convert to Markdown
   - Drag and drop images (requires your Dropbox account be linked)
 
 # Example 
-Este es un ejemplo de cómo se ve la página:
-https://drive.google.com/file/d/1pImyNdYkW90UULKF-Dla7w2UJo43IUVZ/view
+Visualizacion de la pagina:
+https://drive.google.com/file/d/1pImyNdYkW90UULKF-Dla7w2UJo43IUVZ/view?usp=sharing
 
 ### Installation
 ---
-Dillinger requires [Node.js](https://nodejs.org/) v4+ to run.
+> Como primer paso que debemos realizar es clonar el repositorio: 
+` git clone blablbabla` 
 #### Test Camera
-- 
+- ` cd camara-ros/ python app.py` 
+Alli se correra un codigo que generar un http//:conTuIp:5000 y podras ver en tiempo real lo que toma la camara del telefono
+
 ##### Running Web page
-- 
+
+- ` cd ros_flask/python index2.py` 
+Aqui ya se genera la pagina capaz de obtener los datos de los sensores de 
+
 
 Install the dependencies and devDependencies and start the server.
 
