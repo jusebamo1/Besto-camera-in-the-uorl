@@ -24,28 +24,18 @@ https://drive.google.com/file/d/1pImyNdYkW90UULKF-Dla7w2UJo43IUVZ/view?usp=shari
 
 ### Installation
 ---
-> Como primer paso que debemos realizar es clonar el repositorio: 
+> Como primer paso debemos clonar el repositorio: 
 ` git clone blablbabla` 
 #### Test Camera
 - ` cd camara-ros/ python app.py` 
-Alli se correra un codigo que generar un http//:conTuIp:5000 y podras ver en tiempo real lo que toma la camara del telefono
+Alli se ejecutara un codigo que genera un link  (http//:localip:5000) y podras ver en tiempo real lo que toma la camara del telefono.
 
 ##### Running Web page
 
-- ` cd ros_flask/python index2.py` 
-Aqui ya se genera la pagina capaz de obtener los datos de los sensores de 
+- ` cd ros_flask/python index.py` 
+Aqui ya se genera la pagina capaz de obtener los datos de los sensores tales com:
+> illuminance
+> imu
+> camera
 
 
-Install the dependencies and devDependencies and start the server.
-
-```sh
-$ cd dillinger
-$ npm install -d
-$ node app
-```
-
-For production environments...
-
-```sh
-$ npm install --production
-$ NODE_ENV=production node app
