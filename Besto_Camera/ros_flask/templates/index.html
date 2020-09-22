@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block index %}
+
+<! --Barra Principal-->
+
+  <nav class="navbar navbar-expand-lg navbar-gray fixed-top" id="mainNav">
+    <div class="container">
+      <a class="nav-link" href="/">
+        <h4>Inicio</h4>
+      </a>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#login">
+              <h4>Login</h4>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">
+              <h4>About</h4>
+            </a>
+          </li>
+        </ul>
+    </div>
+  </nav>
+  <! --Login-->
+    <section id="login" class="login-section bg-black">
+      {% with mensajes = get_flashed_messages() %}
+      {% if mensajes %}
+      {% for mensaje in mensajes%}
+      <div class="alert alert-danger alert-dismissible flashbar">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        <strong>{{ mensaje }}</strong>
+      </div>
+      {% endfor %}
+      {% endif %}
+      {% endwith %}
+      <div class="login-box">
+        <form action='/auth' method='POST'>
+          <!-- USERNAME INPUT -->
+          <label for="user" type ="username">Username</label>
+          <input type="text" name="user" placeholder="Enter Username">
+          <!-- PASSWORD INPUT -->
+          <label for="password" type="password">Password</label>
+          <input type="password" name="pass" placeholder="Enter Password">
+          <input type="submit" value="Log In">
+          <a href="/debug">Lost your Password?</a><br>
+          <a href="/debug">Don't have An account?</a>
+        </form>
+      </div>
+    </section>
+
+    {% endblock %}
