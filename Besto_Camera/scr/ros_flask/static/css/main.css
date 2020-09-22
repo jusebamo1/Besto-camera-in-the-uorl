@@ -1,0 +1,278 @@
+@font-face {
+  font-family: 'Playfair Display';
+  src: url('/static/font/PlayfairDisplay-Regular.woff2') format('woff2'),
+    url('/static/font/PlayfairDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.navbar, navbar-expand-lg, navbar-gray{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.6) 90%);
+  font-family: "Playfair Display";
+  height: 10vh
+}
+
+.buttonsRos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: fixed;
+  top: 94%;
+  right: 0;
+  z-index: 10030;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.movDiv {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.movConfig {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.buttonsRos input[type="submit"]{
+  width: 23%;
+}
+
+.buttonsRos input[type="submit1"]{
+  width: 23%;
+  background: none;
+  border: none;
+}
+
+.dbuttons {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.joyTest {
+
+}
+
+.mf-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 110%;
+  height: 130%;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 1% 2%;
+}
+
+.imu-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 110%;
+  height: 130%;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 1% 2%;
+}
+
+.imu_charts{
+  height: 95%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1%;
+}
+
+.imux_charts, .imuy_charts, .imuz_charts, .mf-charts{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1%;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.alert {
+  width: 28%;
+  top: 21%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.login-section, .data-section {
+  padding: 15%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.6) 90%), url("../img/bg.jpg") no-repeat center top;
+  background-size: cover;
+  height: 100vh;
+}
+
+.about-section {
+  padding: 17%;
+  background: #000000;
+  background: -webkit-linear-gradient(to right, #434343, #000000);
+  background: linear-gradient(to right, #434343, #000000);
+}
+
+.about-section .card {
+  border: 0;
+  border-bottom: 0.25rem solid black;
+}
+
+.about-section .card h4 {
+  font-size: 0.8rem;
+  font-family: 'Varela Round';
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.about-section .card hr {
+  border-color: black;
+  border-width: 0.25rem;
+  width: 5rem;
+}
+
+.about-section .social {
+  margin-top: 2rem;
+}
+
+.about-section .social a {
+  text-align: center;
+  height: 3rem;
+  width: 3rem;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 100%;
+  line-height: 3rem;
+  color: rgba(255, 255, 255, 1);
+}
+
+.login-box {
+  width: 28%;
+  height: 47%;
+  background: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 1);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 2% 2%;
+}
+
+.login-box label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+  color: #fff;
+}
+
+.login-box input {
+  width: 100%;
+  margin-bottom: 5%;
+}
+
+.login-box input[type="text"], .login-box input[type="password"] {
+  border: none;
+  border-bottom: 1px solid white;
+  background: transparent;
+  outline: none;
+  height: 20%;
+  color: #fff;
+  font-size: 90%;
+}
+
+.login-box input[type="submit"] {
+  border: none;
+  outline: none;
+  height: 15%;
+  background: black;
+  color: #fff;
+  font-size: 100%;
+  border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover {
+  cursor: pointer;
+  background: #161616;
+  color: white;
+}
+
+.login-box a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+}
+
+.login-box a:hover {
+  color: #fff;
+}
+
+.data-section {
+  padding: 10%;
+}
+
+.data-box {
+  width: 110%;
+  height: 110%;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 2% 2%;
+}
+
+.data-box label[type="title"] {
+  color: #fff;
+  font-family: 'Playfair Display';
+  background: transparent;
+  font-size: 120%;
+}
+
+.data-box label[type="data"] {
+  border: none;
+  outline: none;
+  width: 6.5%;
+  background: black;
+  color: #fff;
+  font-size: 100%;
+  border-radius: 20px;
+  padding-left: 2%;
+}
+
+.chart-box {
+  width: 84vw;
+  height: 50vh;
+}
+
+.data_label {
+  align-items: center;
+  padding-left: 1%;
+  padding-right: 1%;
+  height: 7%;
+  background: black;
+  color: #fff;
+  font-size: 100%;
+  border-radius: 5px;
+}
+
+.table th, table td {
+  background: rgba(0, 0, 0, 0.2;
+  color: #fff !important;
+}
