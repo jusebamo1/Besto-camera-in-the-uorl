@@ -18,6 +18,10 @@ Un cliente se conecta al servidor de la cámara, la página comienza a transmiti
 
 # Visualizacion de la pagina:
 https://drive.google.com/file/d/1pImyNdYkW90UULKF-Dla7w2UJo43IUVZ/view?usp=sharing
+https://drive.google.com/file/d/1blhYk78O0K4xGQWMXgcTu4aJqO-YpaFZ/view?usp=sharing
+https://drive.google.com/file/d/1gA_vK-ROsEfnq6nDhwLQz6UqNoIkV4UM/view?usp=sharing
+https://drive.google.com/file/d/1I-zmsiefdOYS52tL2yW5O0hPvHMSZNqi/view?usp=sharing
+
 
 
 #### Requirements
