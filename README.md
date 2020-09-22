@@ -6,14 +6,14 @@
 --------------------------
 
 
-# Besto-Camera-in-the-uorld
+# Simple ROS Web Interface
 --------------------------
-Un servidor de cámara web rápido con sensor habilitado para websocket que se puede usar para crear timelapses. El proyecto contiene un servidor express que se ejecuta en una PC para transmitir imágenes de la cámara del teléfono,además de los datos tomados por los sensores del mismo.
+Un servidor web rápido con sensor habilitado para websocket que se puede usar para obtener los valores dados por un telefono. El proyecto contiene un servidor express que se ejecuta en una PC para transmitir  los datos tomados por el telefono.
 
 
 ## Cómo funciona
 --------------------------------
-Un cliente se conecta al servidor de la cámara, la página comienza a transmitir imagenes cada segundo. Cuando el servidor de archivo recibe el evento websocket, extrae la imagen del servidor de la cámara y archiva la imagen para su posterior procesamiento durante un período de tiempo.
+Un cliente se conecta al servidor, la página comienza a transmitirlos datos cada segundo. Cuando el servidor de archivo recibe el evento websocket, extrae el valor del servidor y la archiva para su posterior procesamiento durante un período de tiempo.
 
 
 #### Requirements
@@ -28,9 +28,6 @@ Un cliente se conecta al servidor de la cámara, la página comienza a transmiti
 ---
 > Como primer paso debemos clonar el repositorio: 
 ` git clone "https://github.com/jusebamo1/Besto-camera-in-the-uorl.git"` 
-#### Test Camera
-- ` cd camara-ros/ python app.py` 
-Alli se ejecutara un codigo que genera un link  (http//:localip:5000) y podras ver en tiempo real lo que toma la camara del telefono.
 
 
 #### Running Web page
