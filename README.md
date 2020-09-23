@@ -1,7 +1,7 @@
 # Readme 
 
 [![N|Solid](https://lh3.googleusercontent.com/proxy/zXOtAsOkQ19Te14LY7MGtUH7OWvK-lIxpb8gcYXCcOiYjmsB4fu9riYahu4ETg4QIy4EctZw84qOJqtqxyGnaZhhjWJG4ZKV8M4QdX8vrKuheufWdQ)](https://www.ros.org/)
-# Besto-name-in-the-uorld
+# Simple ROS Web Interface
 ![alt text](https://i.imgur.com/tC1oo2n.png)
 --------------------------
 
