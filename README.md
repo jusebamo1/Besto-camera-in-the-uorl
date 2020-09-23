@@ -8,7 +8,7 @@
 
 # Simple ROS Web Interface
 --------------------------
-Un servidor web rápido con sensor habilitado para websocket que se puede usar para obtener los valores dados por un telefono. El proyecto contiene un servidor express que se ejecuta en una PC para transmitir  los datos tomados por el telefono.
+Un servidor web rápido con sensor habilitado para websocket que se puede usar para obtener los valores dados por un telefono. El proyecto contiene un servidor express que se ejecuta en una PC para transmitir  los datos tomados por el mismo.
 
 
 ## Cómo funciona
